@@ -15,3 +15,5 @@
 
 # CollectionView da bir row da 2 ve daha fazla Haber gösterebilen extra puan alıcaktır.
 - İsteyen Uygulamasını Icon Koyabilir.
+
+<img src="https://raw.githubusercontent.com/FMSS-IOS-Patika-Bootcamp/homework2-busragunees/main/art/1.png"/>
