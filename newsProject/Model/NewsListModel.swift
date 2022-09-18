@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
+ //MARK: - news model
+
 struct NewsListModel {
     let newsImage:UIImage
     let newsTitle:String
@@ -15,3 +17,4 @@ struct NewsListModel {
     let newsUrl:String
     
 }
+

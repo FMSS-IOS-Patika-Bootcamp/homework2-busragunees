@@ -14,7 +14,7 @@ class NewsDetailViewController: UIViewController {
     @IBOutlet weak var newsDescriptionLabel: UILabel!
     @IBOutlet weak var goToNewsButton: UIButton!
     
-    
+    //MARK: - button news detail codes.
     
     var selectedNewsList:NewsListModel! = nil
     
