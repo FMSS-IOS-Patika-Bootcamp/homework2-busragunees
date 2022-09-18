@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64008C1A28D75793000CF033 /* NewsListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64008C1928D75793000CF033 /* NewsListHelper.swift */; };
 		64B0521928D519100004BF70 /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0521828D519100004BF70 /* WebKitViewController.swift */; };
 		64BD9B3A28D2155A005D2F9B /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD9B3928D2155A005D2F9B /* NewsCollectionViewCell.swift */; };
 		64BD9B3C28D216FB005D2F9B /* NewsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD9B3B28D216FB005D2F9B /* NewsListModel.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64008C1928D75793000CF033 /* NewsListHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListHelper.swift; sourceTree = "<group>"; };
 		64B0521828D519100004BF70 /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 		64BD9B3928D2155A005D2F9B /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
 		64BD9B3B28D216FB005D2F9B /* NewsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListModel.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				64BD9B3B28D216FB005D2F9B /* NewsListModel.swift */,
+				64008C1928D75793000CF033 /* NewsListHelper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64008C1A28D75793000CF033 /* NewsListHelper.swift in Sources */,
 				64DD194228D1675B006D7FD7 /* HomeViewController.swift in Sources */,
 				64BD9B3C28D216FB005D2F9B /* NewsListModel.swift in Sources */,
 				64BD9B3E28D21F65005D2F9B /* NewsDetailViewController.swift in Sources */,
