@@ -97,14 +97,26 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <searchBar contentMode="redraw" placeholder="BGnews'te ara..." translatesAutoresizingMaskIntoConstraints="NO" id="MTD-G9-nHo">
+                                <rect key="frame" x="0.0" y="99" width="351" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Vjq-eZ-xSR"/>
+                                    <constraint firstAttribute="width" constant="351" id="f4L-He-6rM"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="0s6-Rd-jvz"/>
+                            <constraint firstItem="gEj-Ec-ErQ" firstAttribute="top" secondItem="MTD-G9-nHo" secondAttribute="bottom" constant="21" id="8Vm-x8-dWn"/>
+                            <constraint firstItem="MTD-G9-nHo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="DeS-Dm-LWI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ukg-Ga-tie" secondAttribute="trailing" constant="7" id="Foo-RF-72q"/>
                             <constraint firstItem="Ukg-Ga-tie" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="UQq-IP-cgv"/>
+                            <constraint firstItem="MTD-G9-nHo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y6H-c4-X6F"/>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cDe-yN-tIQ"/>
+                            <constraint firstItem="Ukg-Ga-tie" firstAttribute="leading" secondItem="MTD-G9-nHo" secondAttribute="trailing" id="lCe-V9-fP1"/>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mhs-JH-fUx"/>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="top" secondItem="Ukg-Ga-tie" secondAttribute="bottom" constant="21" id="pUk-NF-X0B"/>
                         </constraints>
