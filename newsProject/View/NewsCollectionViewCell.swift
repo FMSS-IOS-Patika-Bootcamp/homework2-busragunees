@@ -17,6 +17,7 @@ class NewsCollectionViewCell: UICollectionViewCell {
         newsImageView.image = item.newsImage
         newsLabel.text = item.newsTitle
         newsImageView.layer.cornerRadius = 15
+        viewDetailButton.layer.masksToBounds = true
         viewDetailButton.layer.cornerRadius = 8
     }
     

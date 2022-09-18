@@ -32,14 +32,14 @@
                                     <constraint firstAttribute="height" constant="698" id="eQF-b9-MYL"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="J8c-UH-XiA">
-                                    <size key="itemSize" width="190" height="269"/>
+                                    <size key="itemSize" width="90" height="296"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="newsCell" id="zqT-Q4-Oo1" customClass="NewsCollectionViewCell" customModule="newsProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="190" height="269"/>
+                                        <rect key="frame" x="0.0" y="10" width="190" height="269"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Bsa-QT-t3M">
                                             <rect key="frame" x="0.0" y="0.0" width="190" height="269"/>
@@ -60,7 +60,7 @@
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="174" id="lQU-bP-j02"/>
                                                         <constraint firstAttribute="height" constant="57" id="ldS-rD-jhs"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -97,12 +97,9 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" placeholder="BGnews'te ara..." translatesAutoresizingMaskIntoConstraints="NO" id="MTD-G9-nHo">
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="BGnews'te ara..." translatesAutoresizingMaskIntoConstraints="NO" id="MTD-G9-nHo">
                                 <rect key="frame" x="0.0" y="99" width="351" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Vjq-eZ-xSR"/>
-                                    <constraint firstAttribute="width" constant="351" id="f4L-He-6rM"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
@@ -110,13 +107,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="0s6-Rd-jvz"/>
-                            <constraint firstItem="gEj-Ec-ErQ" firstAttribute="top" secondItem="MTD-G9-nHo" secondAttribute="bottom" constant="21" id="8Vm-x8-dWn"/>
-                            <constraint firstItem="MTD-G9-nHo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="DeS-Dm-LWI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ukg-Ga-tie" secondAttribute="trailing" constant="7" id="Foo-RF-72q"/>
                             <constraint firstItem="Ukg-Ga-tie" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="UQq-IP-cgv"/>
-                            <constraint firstItem="MTD-G9-nHo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y6H-c4-X6F"/>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cDe-yN-tIQ"/>
-                            <constraint firstItem="Ukg-Ga-tie" firstAttribute="leading" secondItem="MTD-G9-nHo" secondAttribute="trailing" id="lCe-V9-fP1"/>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mhs-JH-fUx"/>
                             <constraint firstItem="gEj-Ec-ErQ" firstAttribute="top" secondItem="Ukg-Ga-tie" secondAttribute="bottom" constant="21" id="pUk-NF-X0B"/>
                         </constraints>

@@ -58,7 +58,7 @@ extension HomeViewController : UICollectionViewDelegate,UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 80, height: 250)
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let home = self.storyboard?.instantiateViewController(withIdentifier: "HomeController") as! NewsDetailViewController
         home.selectedNewsList = itemList[indexPath.row]
